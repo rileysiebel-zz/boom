@@ -35,6 +35,8 @@ group :test do
   gem 'guard-minitest',     '2.3.1'
 end
 
+gem 'faker', '1.4.2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

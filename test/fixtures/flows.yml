@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+pay_check:
+  name: 'Income from C3 Energy'
+  source: C3
+  sink: checking
+  amount: 6250
+
+siebel_mortgage:
+  name: 'Mortgage Payment to Siebel Trust'
+  source: checking
+  sink: siebel
+  amount: 1300.68
+
+wells_mortgage:
+  name: 'Mortgage Payment to Wells Fargo'
+  source: checking
+  sink: wells
+  amount: 4702.37
+
+car_payment:
+  name: 'Car Payment'
+  source: checking
+  sink: audi
+  amount: 550

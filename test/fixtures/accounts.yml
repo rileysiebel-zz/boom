@@ -1,0 +1,34 @@
+riley:
+  name: 'Riley'
+
+savings:
+  name: 'Wells Fargo Savings'
+  parent: riley
+
+checking: 
+  name: 'Wells Fargo Checking'
+  parent: riley
+
+creditcard:
+  name: 'Wells Fargo Credit Card'
+  parent: riley
+
+home:
+  name: '207 Guerrero St'
+  parent: riley
+
+car:
+  name: 'Audi A5'
+  parent: riley
+
+c3:
+  name: 'C3 Energy'
+
+siebel:
+  name: 'Siebel Living Trust'
+
+wells:
+  name: 'Wells Fargo Mortgage'
+
+audi:
+  name: 'Audi'

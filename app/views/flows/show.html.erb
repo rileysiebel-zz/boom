@@ -1,0 +1,10 @@
+<h1>Flow View Page</h1>
+<%= @flow.name %> <br/>
+$<%= @flow.amount %>
+
+
+<h2> Origin </h2>
+<%= link_to @flow.source.name, :controller => 'accounts', :action => 'show', :id => @flow.source.id %>
+
+<h2> Destination </h2>
+<%= link_to @flow.sink.name, :controller => 'accounts', :action => 'show', :id => @flow.sink.id %>
